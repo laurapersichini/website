@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	object-fit: cover;
+}
+
+/* Navbar */
+.hamburger-line {
+	width: 30px;
+	height: 3px;
+	transition: all 200ms ease;
+	margin: 6px;
+}
+
+.mobile-nav-wrapper {
+	clip-path: circle(1px at 100% 0%);
+	-webkit-clip-path: circle(0 at 100% 0%);
+	pointer-events: none;
+	transition: all 500ms ease;
+}
+
+.mobile-nav-wrapper.open {
+	clip-path: circle(1200px at 100% 0%);
+	-webkit-clip-path: circle(1200px at 100% 0%);
+	transition: all 500ms ease;
+	pointer-events: all;
+}
