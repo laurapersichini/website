@@ -42,7 +42,7 @@ export const Experience = () => {
 					date='Jan - Apr 2021'
 					companyName='Maplesoft'
 					positionName='Quality Assurance Analyst'
-					description='Tested the flagship product -- Maple -- to identify bugs and areas for improvment across three platforms.  '
+					description='Tested the flagship product -- Maple -- to identify bugs and areas for improvement across three platforms.  '
 					imagePath='/images/maplesoft.png'
 					removeExtraBottomLine={true}
 				/>

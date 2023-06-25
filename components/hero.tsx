@@ -21,7 +21,7 @@ const Hero = () => {
 
 			<Heading
 				variant='h1'
-				size='4xl'
+				size={{base: "3xl", md: '4xl'}}
 				fontWeight='normal'
 				textDecor='underline'
 				textDecorationColor={decorationColor}
@@ -36,7 +36,7 @@ const Hero = () => {
 				<Flex alignItems='center'>
 					<Icon color='#0077b5' as={BsLinkedin} mr={2} />
 					<Link href='https://www.linkedin.com/in/laura-persichini' isExternal>
-						@laurapersichini
+						@laura-persichini
 					</Link>
 				</Flex>
 				<Flex alignItems='center'>
