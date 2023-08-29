@@ -17,11 +17,18 @@ export const Experience = () => {
 				Experience
 			</Heading>
 			<Box mt={6}>
+			<SingleExperience
+					date='Sept - Dec 2023'
+					companyName='Plooto'
+					positionName='Product Manager'
+					description='Working on the payments team for the Fall 2023 term to build and deliver a pay-by-credit card feature.'
+					imagePath='/images/plooto.jpeg'
+				/>
 				<SingleExperience
 					date='Jan - Apr 2023'
 					companyName='Nuclear Promise X'
 					positionName='Product Manager'
-					description='Worked to digitize manual processes by managing a cross-functional team through releases of 3 main projects.'
+					description='Digitized manual processes by managing a cross-functional team through releases of 3 main projects.'
 					imagePath='/images/npx.png'
 				/>
 				<SingleExperience

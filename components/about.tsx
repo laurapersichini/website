@@ -29,7 +29,7 @@ const About = () => {
 
 					</Text>
 					<Text>
-					I’m currently in my third year of Systems Design Engineering at the University of Waterloo and seeking internship opportunities for Fall 2023 in product related roles.
+					I’m currently in my fourth year of Systems Design Engineering at the University of Waterloo and seeking internship opportunities for Summer 2024 in product related roles.
 					</Text>
 					<Box mt={6}>
 						<Text fontSize='lg' fontWeight='bold'>
@@ -37,7 +37,7 @@ const About = () => {
 						</Text>
 						<UnorderedList>
 							<ListItem>
-								Completing my 3A term of engineering this summer in Waterloo.
+								Building on my product management skills during my co-op term at Plooto.
 							</ListItem>
 							<ListItem>
 								Training for a marathon (spring 2024 in Toronto). 
